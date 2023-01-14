@@ -8,4 +8,11 @@ int	main(void)
 	first.set_value(2, -5);
 	first.displayComplex();
 	second.displayComplex();
+
+	cout << "----------------------" << endl;
+	first = first.added_complex(second);
+	first.displayComplex();
+	cout << "----------------------" << endl;
+	first = first.subtractComplex(second);
+	first.displayComplex();
 }
